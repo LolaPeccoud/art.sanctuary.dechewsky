@@ -1,48 +1,25 @@
-.liste-style{ 
-width: 1512px;
-height: 138px;
-flex-shrink: 0;
+#Nos Artistes {
+	color: black;
+ font-size: 40px;
+ font-family: Junge;
+ font-weight: 400;
+ word-wrap: break-word
 }
 
-#Artistes{
-	display: flex;
-	width: 231px;
-	height: 47px;
-	flex-direction: column;
-	justify-content: flex-end;
-	flex-shrink: 0;
-	color: #000;
-	text-align: center;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-family: Junge;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
+#Nos Expositions {
+	color: black;
+ font-size: 40px;
+ font-family: Junge;
+ font-weight: 400;
+ word-wrap: break-word
+
+}
+#Contact {
+	color: black;
+ font-size: 40px;
+ font-family: Junge;
+ font-weight: 400;
+ word-wrap: break-word
 }
 
-#Expos {
-	display: flex;
-	width: 300px;
-	height: 47px;
-	flex-direction: column;
-	justify-content: flex-end;
-	flex-shrink: 0;
-	color: #000;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-family: Junge;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-}
-
-#Contact{
-	display: flex;
-	width: 156px;
-	height: 47px;
-	flex-direction: column;
-	justify-content: flex-end;
-	flex-shrink: 0;
-}
 
