@@ -1,26 +1,77 @@
-<!DOCTYPE html>
-<html lang="fr">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>
-        Decchewsky art sanctuary
-    </title>
-        </title>
-    <script src="https://kit.fontawesome.com/4c06c39dd8.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.menu.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.menu.css">
+  <title>DechewskyArtProject</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-    <body>
-    <div style="width: 100%; height: 100%; position: relative; background: #FFFAFA">
-    <div style="width: 231px; height: 47px; left: 290px; top: 59px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Junge; font-weight: 400; word-wrap: break-word">Nos Artistes</div>
-    <div style="width: 300px; height: 47px; left: 662px; top: 59px; position: absolute; color: black; font-size: 40px; font-family: Junge; font-weight: 400; word-wrap: break-word">Nos Expositions</div>
-    <div style="width: 156px; height: 47px; left: 1102px; top: 59px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Junge; font-weight: 400; word-wrap: break-word">Contact</div>
-    <img style="width: 348px; height: 330px; left: 0px; top: -131px; position: absolute" src=Images/logo.jpg />
-    <img style="width: 45px; height: 45px; left: 1432px; top: 59px; position: absolute" src=Images/coeur.png />
-    <img style="width: 39px; height: 39px; left: 1350px; top: 60px; position: absolute" src=Images/panier-vide.png />
-</div>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<header>
+
+  <div class="container1">
+      <div class="a_cacher">
+        <li class="dropdown">
+          <a  data-tooltip="Menu" class="menu" ><i class="bx bx-menu"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="/artiste" onclick="loadHeader()" class="hidden">Nos Artistes</a></li>
+            <li><a href="/derniereExposition" onclick="loadHeader()" class="Nos_expo"> Nos Expositions </a></li>
+            <li><a href="/about" onclick="loadHeader()"> Contact </a></li>
+            
+          </ul>
+        </li>
+    </div>
+    <a href="/" onclick="loadHeader()" class="logo_pinceau"><img src="assets/images/logo.jpg" alt="Description de l'image"></a>
+    
+    <div class ="yoyo">
+      <nav class="central_menu">
+        <ul>
+          <li class="dropdown">
+            <a href="/artiste" onclick="loadHeader()" class="hidden">Nos Artistes</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Marina Lavoie</a></li>
+              <li><a href="#">Orfeo Taguiri</a></li>
+              <li><a href="#">M. HKT</a></li>
+              <li><a href="#">Yvon Gouri</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="/derniereExposition" onclick="loadHeader()" class="Nos_expo"> Nos Expositions </a>
+            <ul class="dropdown-menu">
+              <li><a href="#"> Exposition Juin 2023</a></li>
+              <li><a href="#">Exposition Mai 2023</a></li>
+              <li><a href="#">Exposition Avril 2023</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/about" onclick="loadHeader()"> Contact </a></li>
+        </ul>
+      </nav>
+  </div>
+
+    <div class ="petit_logo">
+      <nav class="features logos">
+        <ul> 
+          
+          <li><a href="/statistic" onclick="loadHeader()" data-tooltip="Favoris" ><i class="bx bxs-heart my-icon"></i></a></li>
+          <li><a href="/cart" onclick="loadHeader()"  data-tooltip="Cart" id="cartoon"><i class="bx bx-cart my-icon" ><div id="border_red"><span id="numbre_in_cart"></span></div></i></a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<body>
+  <app-root></app-root>
+</body>
+</html>
 
 
      
